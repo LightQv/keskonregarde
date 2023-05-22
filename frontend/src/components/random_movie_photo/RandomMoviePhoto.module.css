@@ -1,6 +1,5 @@
 .moviePhoto {
-  margin-top: 0.5rem;
-  height: 80dvh;
+  height: calc(100dvh - calc(6.25rem + 3.5rem)); /* header + search-bar */
   box-shadow: 0px 0px 5px var(--darkGrey);
 }
 
@@ -31,7 +30,7 @@
 }
 @media screen and (min-width: 1024px) {
   .moviePhoto {
-    height: 73.5vh;
+    height: calc(100dvh - calc(8.25rem + 5.5rem)); /* header + search-bar */
   }
 
   .titleMoviePhoto {

@@ -15,7 +15,6 @@
 
 body {
   background-color: var(--lowGrey);
-  overflow: hidden;
   scrollbar-width: none; /* Firefox */
   scroll-behavior: smooth;
 }
@@ -35,7 +34,7 @@ body {
 
 .logo-pic {
   height: 2rem;
-  margin: 2rem auto 0.5rem;
+  margin: 1.5rem auto 0;
 }
 
 /* Top Rated button */
@@ -44,6 +43,7 @@ body {
   margin: 0.5rem;
   background-color: var(--white);
   color: var(--darkRed);
+  height: 1.5rem;
   width: 5rem;
   border: 1px solid var(--mediumGrey);
   font-size: 0.6rem;
@@ -60,6 +60,7 @@ body {
   margin: 0.5rem;
   background-color: var(--darkRed);
   color: var(--white);
+  height: 1.5rem;
   width: 5rem;
   border: 1px solid var(--mediumGrey);
   font-size: 0.6rem;
@@ -102,11 +103,12 @@ body {
 @media screen and (min-width: 1024px) {
   .logo-pic {
     height: 3rem;
-    margin: 2.75rem auto 1rem;
+    margin: 2rem auto 0;
   }
 
   .button-top-rated {
     padding: 0.5rem 0.8rem;
+    height: 2rem;
     width: 6.5rem;
     font-size: 0.69rem;
   }
@@ -118,6 +120,7 @@ body {
 
   .button-top-rated-enabled {
     padding: 0.5rem 1rem;
+    height: 2rem;
     width: 6.5rem;
     font-size: 0.69rem;
   }

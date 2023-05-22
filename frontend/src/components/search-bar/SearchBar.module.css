@@ -44,6 +44,7 @@
     height: 3rem;
     width: 60vw;
     border-radius: 0.9rem;
+    margin: 0.5rem auto 2rem;
   }
 
   .searchButton {

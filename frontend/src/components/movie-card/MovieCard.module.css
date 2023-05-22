@@ -1,10 +1,9 @@
 .movieCardPage {
   height: fit-content;
-  margin-top: 0.5rem;
 }
 
 .mobileMovieCard {
-  height: 77vh;
+  min-height: calc(100dvh - calc(6.25rem + 3.5rem));
   padding: 1.8rem 1.5rem;
 }
 
@@ -21,7 +20,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 27rem;
 }
 
 .movieTitle {
@@ -95,7 +93,6 @@
   color: var(--darkGrey);
   text-justify: inter-word;
   font-size: 1rem;
-  max-height: 11rem;
   overflow: scroll;
   scrollbar-width: none;
 }
@@ -109,7 +106,7 @@
 
   .desktopMovieCard {
     height: 65vh;
-    margin: 0 6rem 2rem;
+    margin: 1rem 6rem;
     background-color: rgba(246, 246, 246, 0.85);
     border-radius: 0.8rem;
     box-sizing: border-box;
