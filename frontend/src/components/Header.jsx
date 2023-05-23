@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/Keskonregarde.gif";
 import { Link, NavLink } from "react-router-dom";
 import SearchBar from "./search-bar/SearchBar";
 
@@ -6,11 +7,7 @@ export default function Header() {
   return (
     <header className="header-container">
       <Link to="/">
-        <img
-          src="../src/assets/Keskonregarde.gif"
-          alt="logo"
-          className="logo-pic"
-        />
+        <img src={logo} alt="logo" className="logo-pic" />
       </Link>
       <NavLink
         to="/top-rated"
