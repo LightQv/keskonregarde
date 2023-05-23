@@ -15,12 +15,7 @@
 
 body {
   background-color: var(--lowGrey);
-  scrollbar-width: none; /* Firefox */
   scroll-behavior: smooth;
-}
-
-.body::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
 }
 
 /* Header */
@@ -101,6 +96,15 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  body {
+    overflow: hidden;
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .body::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
   .logo-pic {
     height: 3rem;
     margin: 2rem auto 0;
