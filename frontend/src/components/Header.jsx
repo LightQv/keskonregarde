@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../assets/Keskonregarde.gif";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../assets/Keskonregarde.gif";
 import SearchBar from "./search-bar/SearchBar";
 
 export default function Header() {
